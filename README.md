@@ -1,3 +1,3 @@
-# rewinder
+# rewinders
 
 Rewind the game time.
