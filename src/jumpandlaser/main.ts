@@ -111,6 +111,7 @@ function update() {
     player.vy += (input.isPressed ? 0.2 : 0.4) * df;
     player.pos.y += player.vy;
     if (player.pos.y > floorHeight) {
+      play("hit");
       player.pos.y = floorHeight;
       player.isOnFloor = true;
       player.jumpCount = 0;
