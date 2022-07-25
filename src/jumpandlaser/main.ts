@@ -1,6 +1,5 @@
 import {
   addScore,
-  ceil,
   color,
   frameState,
   init,
@@ -14,7 +13,6 @@ import {
   rnd,
   rndi,
   sqrt,
-  text,
   ticks,
   times,
   vec,
