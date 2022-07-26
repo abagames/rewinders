@@ -690,6 +690,7 @@ function stopRewind() {
   isRewinding = false;
   state = "inGame";
   _particle.init();
+  scoreBoards = [];
   if (isPlayingBgm && isSoundEnabled) {
     sss.playBgm();
   }
