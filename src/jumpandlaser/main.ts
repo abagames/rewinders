@@ -202,6 +202,5 @@ init({
     viewSize: { x: 200, y: 100 },
     isDrawingScoreFront: true,
     seed: 10,
-    isCapturing: true,
   },
 });
